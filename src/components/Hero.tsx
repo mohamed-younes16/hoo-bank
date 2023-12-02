@@ -1,6 +1,10 @@
 import {robot,discount}  from "../assets/index"
 import MotionText from "./MotionText"
+
 const Hero = () => {
+
+
+      
   return (
     <div id="Home">
         <div className="flex gap-8 max-md:items-center  max-md:flex-col  mt-14 ">

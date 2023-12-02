@@ -1,6 +1,5 @@
 
-import {quotes ,coinbase,
-    dropbox,airbnb,binance} from "../assets/index.js"
+import {quotes } from "../assets/index.js"
 import {feedback,clients} from "../constants/index.js"
 import MotionText from "./MotionText.js"
 
@@ -26,7 +25,7 @@ const Clients = () => {
 
         <div className="flex gap-4  mt-20 justify-center flex-wrap">
 
-            {feedback.map((e,i)=> 
+            {feedback.map((e:{id:number,content:string,img:string,name:string,title:string},i:number)=> 
               <MotionText del={i+.5}><div key={e.id} className=" feature p-4 rounded-2xl ">
 
                         <img src={quotes} alt="quotes" />
