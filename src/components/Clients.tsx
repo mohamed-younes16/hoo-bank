@@ -33,7 +33,7 @@ const Clients = () => {
                             {e.content}
                         </p></MotionText> 
                         <div className="flex items-center gap-4">
-                           <div className="w-14  h-14"><img src={e.img} alt="" className="object-contain rounded-full" /></div> 
+                           <div className="min-w-[3.5rem] min-h-[3.5rem] "><img src={e.img} alt="" className="object-contain rounded-full" /></div> 
                                 <div>
                                     <p className="font-bold">{e.name} </p>
                                     <p className="text-gray-400">{e.title} </p>
